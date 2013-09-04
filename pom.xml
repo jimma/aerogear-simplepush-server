@@ -215,4 +215,35 @@
             </plugins>
         </pluginManagement>
     </build>
+<repositories>
+  <repository>
+    <id>jboss-releases</id>
+    <name>JBossReleases</name>
+    <layout>default</layout>
+    <url>https://repository.jboss.org/nexus/content/repositories/releases</url>
+    <snapshots>
+      <enabled>false</enabled>
+    </snapshots>
+  </repository>
+  <repository>
+    <id>jboss-snapshot</id>
+    <name>JBossSnapShot</name>
+    <layout>default</layout>
+    <url>https://repository.jboss.org/nexus/content/repositories/snapshots</url>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+  </repository>
+
+  <repository>
+    <id>jboss-thirdparty</id>
+    <name>JBossSnapShot</name>
+    <layout>default</layout>
+    <url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases</url>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+  </repository>
+
+</repositories>
 </project>
